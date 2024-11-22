@@ -1,0 +1,11 @@
+include *.md
+include requirements.txt
+include LICENSE
+include setup.py
+include ultralytics/assets/bus.jpg
+include ultralytics/assets/zidane.jpg
+include ultralytics/assets/small_object/VisDrone.jpg
+include ultralytics/assets/small_object/BDD100K.jpg
+include ultralytics/assets/small_object/TT100K.jpg
+recursive-include ultralytics *.yaml
+recursive-exclude __pycache__ *

@@ -1,0 +1,28 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/datasets/TT100K  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test:  # test images (optional)
+
+# Classes
+names:
+  0: pl80
+  1: p5
+  2: pl60
+  3: p11
+  4: i2r
+  5: i4
+  6: pne
+  7: pl5
+  8: i4l
+  9: pl30
+  10: p10
+  11: pn
+  12: p26
+  13: pl40
+  14: i2
+  15: il60
+  16: w57
+  17: pl100
+  18: i5
+  19: pl50
